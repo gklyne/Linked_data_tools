@@ -21,6 +21,12 @@
       "ldtools:knows_tool": "Tool/Virtuoso"
     }
   ],
+  "ldtools:knows_tools": [
+    {
+      "ldtools:knowledge_level": "***",
+      "ldtools:knows_tool": "Tool/Virtuoso"
+    }
+  ],
   "rdfs:comment": "David Weigl",
   "rdfs:label": "David Weigl"
 }

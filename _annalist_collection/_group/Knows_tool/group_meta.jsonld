@@ -5,7 +5,7 @@
     },
     "../../coll_context.jsonld"
   ],
-  "@id": "_group/Knows_tool_r",
+  "@id": "_group/Knows_tool",
   "@type": [
     "annal:Field_group"
   ],
@@ -22,7 +22,7 @@
       "annal:property_uri": "ldtools:knowledge_level"
     }
   ],
-  "annal:id": "Knows_tool_r",
+  "annal:id": "Knows_tool",
   "annal:record_type": "",
   "annal:type": "annal:Field_group",
   "annal:type_id": "_group",

@@ -1,0 +1,40 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Tool/Jena",
+  "@type": [
+    "ldtools:Tool",
+    "prov:Entity",
+    "skos:Concept",
+    "annal:EntityData"
+  ],
+  "annal:id": "Jena",
+  "annal:type": "ldtools:Tool",
+  "annal:type_id": "Tool",
+  "entity:seeAlso_r": [],
+  "rdfs:comment": "A Java library and supporting utilities for storing and managing RDF data.",
+  "rdfs:label": "Jena RDF toolkit",
+  "skos:narrower": [
+    {
+      "@id": "Category/Triple_store"
+    },
+    {
+      "@id": "Category/Reasoner"
+    },
+    {
+      "@id": "Category/Query_tool"
+    },
+    {
+      "@id": "Category/Library"
+    }
+  ],
+  "skos:related": [
+    {
+      "@id": null
+    }
+  ]
+}
