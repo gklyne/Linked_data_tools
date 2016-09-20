@@ -1,0 +1,18 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Category/Triple_store",
+  "@type": [
+    "skos:Concept",
+    "annal:EntityData"
+  ],
+  "annal:id": "Triple_store",
+  "annal:type": "skos:Concept",
+  "annal:type_id": "Category",
+  "rdfs:comment": "# Triple store\r\n\r\nA tool that provides storage of RDF data as triples or quads.  Data may be accessed directly through a programming language API, or via HTTP using SPARQL updates and queries.\r\n",
+  "rdfs:label": "Triple store"
+}

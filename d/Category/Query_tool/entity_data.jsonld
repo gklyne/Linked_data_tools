@@ -1,0 +1,18 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Category/Query_tool",
+  "@type": [
+    "skos:Concept",
+    "annal:EntityData"
+  ],
+  "annal:id": "Query_tool",
+  "annal:type": "skos:Concept",
+  "annal:type_id": "Category",
+  "rdfs:comment": "Query tool",
+  "rdfs:label": "Query tool"
+}

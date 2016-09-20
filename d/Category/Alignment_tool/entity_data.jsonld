@@ -1,0 +1,18 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Category/Alignment_tool",
+  "@type": [
+    "skos:Concept",
+    "annal:EntityData"
+  ],
+  "annal:id": "Alignment_tool",
+  "annal:type": "skos:Concept",
+  "annal:type_id": "Category",
+  "rdfs:comment": "Alignment tool",
+  "rdfs:label": "Alignment tool"
+}

@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Contact",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Contact",
+  "annal:supertype_uri": [
+    {
+      "@id": "prov:Agent"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Contact",
+  "annal:type_view": "_view/Contact",
+  "annal:uri": "ldtools:Contact",
+  "rdfs:comment": "# Contact person or group\r\n\r\nDetails of a person or group to contact for information about selected tools.\r\n\r\n",
+  "rdfs:label": "Contact person or group"
+}

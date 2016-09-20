@@ -1,0 +1,36 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_view/Category",
+  "@type": [
+    "annal:View"
+  ],
+  "annal:id": "Category",
+  "annal:open_view": true,
+  "annal:record_type": "skos:Concept",
+  "annal:type": "annal:View",
+  "annal:type_id": "_view",
+  "annal:view_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,12;medium:0,6",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Entity_comment",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    }
+  ],
+  "rdfs:comment": "# Tool category view\r\n\r\nView form for type [Category]($COLL:_type/Category), which denotes and describes a category, or grouping, of linked data tools.\r\n",
+  "rdfs:label": "Tool category"
+}

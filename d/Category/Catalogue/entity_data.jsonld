@@ -1,0 +1,18 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Category/Catalogue",
+  "@type": [
+    "skos:Concept",
+    "annal:EntityData"
+  ],
+  "annal:id": "Catalogue",
+  "annal:type": "skos:Concept",
+  "annal:type_id": "Category",
+  "rdfs:comment": "Catalogue",
+  "rdfs:label": "Catalogue"
+}

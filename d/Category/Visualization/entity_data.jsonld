@@ -1,0 +1,18 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Category/Visualization",
+  "@type": [
+    "skos:Concept",
+    "annal:EntityData"
+  ],
+  "annal:id": "Visualization",
+  "annal:type": "skos:Concept",
+  "annal:type_id": "Category",
+  "rdfs:comment": "Visualization",
+  "rdfs:label": "Visualization"
+}

@@ -1,0 +1,31 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/Knows_tool_r",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "ldtools:Contact",
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "Enum_render_type/Group_Seq_Row",
+  "annal:field_value_mode": "Enum_value_mode/Value_direct",
+  "annal:field_value_type": "ldtools:Tool",
+  "annal:group_ref": "_group/Knows_tool_r",
+  "annal:id": "Knows_tool_r",
+  "annal:placeholder": "(Repeat group knows tool)",
+  "annal:property_uri": "ldtools:knows_tool_r",
+  "annal:repeat_label_add": "Add tool",
+  "annal:repeat_label_delete": "Remove tool",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "(tooltip text here)",
+  "rdfs:label": "Knows tools"
+}

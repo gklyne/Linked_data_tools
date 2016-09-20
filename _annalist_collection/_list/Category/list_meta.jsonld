@@ -1,0 +1,36 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/Category",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/Category",
+  "annal:default_view": "_view/Category",
+  "annal:display_type": "Enum_list_type/List",
+  "annal:id": "Category",
+  "annal:list_entity_selector": "'skos:Concept' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_type",
+      "annal:field_placement": "small:3,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:6,6"
+    }
+  ],
+  "annal:record_type": "skos:Concept",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "# List of tool categories\r\n\r\n",
+  "rdfs:label": "Tool category list"
+}

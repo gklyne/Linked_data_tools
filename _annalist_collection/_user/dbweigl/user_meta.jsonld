@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_user/dbweigl",
+  "@type": [
+    "annal:User"
+  ],
+  "annal:id": "dbweigl",
+  "annal:type": "annal:User",
+  "annal:type_id": "_user",
+  "annal:user_permission": [
+    "VIEW",
+    "CREATE",
+    "UPDATE"
+  ],
+  "annal:user_uri": "mailto:dbweigl@gmail.com",
+  "rdfs:comment": "# Permissions for dbweigl\r\n\r\nPermissions for user dbweigl (copied from default)",
+  "rdfs:label": "Permissions for dbweigl"
+}

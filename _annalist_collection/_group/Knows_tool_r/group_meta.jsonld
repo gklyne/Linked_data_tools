@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_group/Knows_tool_r",
+  "@type": [
+    "annal:Field_group"
+  ],
+  "annal:add_field": true,
+  "annal:group_fields": [
+    {
+      "annal:field_id": "_field/Knows_tool",
+      "annal:field_placement": "small:0,12;medium:0,6",
+      "annal:property_uri": "ldtools:knows_tool"
+    },
+    {
+      "annal:field_id": "_field/Knowledge_level",
+      "annal:field_placement": "small:0,12;medium:6,6",
+      "annal:property_uri": "ldtools:knowledge_level"
+    }
+  ],
+  "annal:id": "Knows_tool_r",
+  "annal:record_type": "",
+  "annal:type": "annal:Field_group",
+  "annal:type_id": "_group",
+  "annal:uri": "annal:group/_initial_values",
+  "rdfs:comment": "Knows tool",
+  "rdfs:label": "Knows tool"
+}

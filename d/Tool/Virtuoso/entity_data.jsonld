@@ -1,0 +1,34 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Tool/Virtuoso",
+  "@type": [
+    "ldtools:Tool",
+    "prov:Entity",
+    "skos:Concept",
+    "annal:EntityData"
+  ],
+  "annal:id": "Virtuoso",
+  "annal:type": "ldtools:Tool",
+  "annal:type_id": "Tool",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://virtuoso.openlinksw.com"
+    }
+  ],
+  "rdfs:comment": "Virtuoso",
+  "rdfs:label": "Virtuoso",
+  "skos:narrower": [
+    {
+      "@id": "Category/Triple_store"
+    },
+    {
+      "@id": "Category/Query_tool"
+    }
+  ],
+  "skos:related": []
+}

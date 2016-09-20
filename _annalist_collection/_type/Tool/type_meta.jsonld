@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Tool",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Tool",
+  "annal:supertype_uri": [
+    {
+      "@id": "prov:Entity"
+    },
+    {
+      "@id": "skos:Concept"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Tool",
+  "annal:type_view": "_view/Tool",
+  "annal:uri": "ldtools:Tool",
+  "rdfs:comment": "# Linked data software tool\r\n\r\nA software tool or service that can be used to perform operations on linked data.\r\n",
+  "rdfs:label": "Software tool"
+}

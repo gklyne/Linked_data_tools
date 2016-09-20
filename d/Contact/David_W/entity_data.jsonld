@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Contact/David_W",
+  "@type": [
+    "ldtools:Contact",
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:id": "David_W",
+  "annal:type": "ldtools:Contact",
+  "annal:type_id": "Contact",
+  "ldtools:knows_tool": "",
+  "ldtools:knows_tool_r": [
+    {
+      "ldtools:knowledge_level": "***",
+      "ldtools:knows_tool": "Tool/Virtuoso"
+    }
+  ],
+  "rdfs:comment": "David Weigl",
+  "rdfs:label": "David Weigl"
+}
