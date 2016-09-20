@@ -7,11 +7,12 @@
   ],
   "@id": "Category/Specification",
   "@type": [
+    "ldtools:Category",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "Specification",
-  "annal:type": "skos:Concept",
+  "annal:type": "ldtools:Category",
   "annal:type_id": "Category",
   "rdfs:comment": "Specification",
   "rdfs:label": "Specification"

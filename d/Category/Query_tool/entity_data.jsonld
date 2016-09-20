@@ -7,11 +7,12 @@
   ],
   "@id": "Category/Query_tool",
   "@type": [
+    "ldtools:Category",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "Query_tool",
-  "annal:type": "skos:Concept",
+  "annal:type": "ldtools:Category",
   "annal:type_id": "Category",
   "rdfs:comment": "Query tool",
   "rdfs:label": "Query tool"

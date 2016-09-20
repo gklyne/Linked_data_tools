@@ -7,11 +7,12 @@
   ],
   "@id": "Category/Browser",
   "@type": [
+    "ldtools:Category",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "Browser",
-  "annal:type": "skos:Concept",
+  "annal:type": "ldtools:Category",
   "annal:type_id": "Category",
   "rdfs:comment": "Browser",
   "rdfs:label": "Browser"

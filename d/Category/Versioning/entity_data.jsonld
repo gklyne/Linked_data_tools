@@ -7,11 +7,12 @@
   ],
   "@id": "Category/Versioning",
   "@type": [
+    "ldtools:Category",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "Versioning",
-  "annal:type": "skos:Concept",
+  "annal:type": "ldtools:Category",
   "annal:type_id": "Category",
   "rdfs:comment": "Versioning",
   "rdfs:label": "Versioning"

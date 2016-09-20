@@ -10,9 +10,9 @@
     "annal:Collection"
   ],
   "annal:default_list": "Default_list_all",
-  "annal:default_view_entity": null,
-  "annal:default_view_id": null,
-  "annal:default_view_type": null,
+  "annal:default_view_entity": "00_contents",
+  "annal:default_view_id": "Journal_note_view",
+  "annal:default_view_type": "Journal",
   "annal:id": "Linked_data_tools",
   "annal:inherit_from": "_coll/Journal_defs",
   "annal:meta_comment": "",

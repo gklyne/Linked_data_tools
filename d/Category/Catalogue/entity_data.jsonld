@@ -7,11 +7,12 @@
   ],
   "@id": "Category/Catalogue",
   "@type": [
+    "ldtools:Category",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "Catalogue",
-  "annal:type": "skos:Concept",
+  "annal:type": "ldtools:Category",
   "annal:type_id": "Category",
   "rdfs:comment": "Catalogue",
   "rdfs:label": "Catalogue"

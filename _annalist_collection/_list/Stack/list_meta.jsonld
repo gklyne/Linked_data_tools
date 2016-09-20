@@ -5,15 +5,15 @@
     },
     "../../coll_context.jsonld"
   ],
-  "@id": "_list/Category",
+  "@id": "_list/Stack",
   "@type": [
     "annal:List"
   ],
-  "annal:default_type": "_type/Category",
-  "annal:default_view": "_view/Category",
+  "annal:default_type": "_type/Stack",
+  "annal:default_view": "_view/Stack",
   "annal:display_type": "Enum_list_type/List",
-  "annal:id": "Category",
-  "annal:list_entity_selector": "'ldtools:Category' in [@type]",
+  "annal:id": "Stack",
+  "annal:list_entity_selector": "'ldtools:Stack' in [@type]",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Entity_id",
@@ -24,9 +24,9 @@
       "annal:field_placement": "small:3,9"
     }
   ],
-  "annal:record_type": "ldtools:Category",
+  "annal:record_type": "ldtools:Stack",
   "annal:type": "annal:List",
   "annal:type_id": "_list",
-  "rdfs:comment": "# List of tool categories\r\n\r\n",
-  "rdfs:label": "Tool category list"
+  "rdfs:comment": "# List _initial_values_\r\n\r\n(List information here)",
+  "rdfs:label": "Software stack list"
 }

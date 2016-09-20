@@ -7,11 +7,12 @@
   ],
   "@id": "Category/Publishing",
   "@type": [
+    "ldtools:Category",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "Publishing",
-  "annal:type": "skos:Concept",
+  "annal:type": "ldtools:Category",
   "annal:type_id": "Category",
   "rdfs:comment": "Publishing",
   "rdfs:label": "Publishing"

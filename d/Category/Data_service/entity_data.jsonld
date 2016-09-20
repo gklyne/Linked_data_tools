@@ -7,11 +7,12 @@
   ],
   "@id": "Category/Data_service",
   "@type": [
+    "ldtools:Category",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "Data_service",
-  "annal:type": "skos:Concept",
+  "annal:type": "ldtools:Category",
   "annal:type_id": "Category",
   "rdfs:comment": "Data service",
   "rdfs:label": "Data service"

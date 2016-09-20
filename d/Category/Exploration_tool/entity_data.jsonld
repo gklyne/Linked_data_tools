@@ -7,11 +7,12 @@
   ],
   "@id": "Category/Exploration_tool",
   "@type": [
+    "ldtools:Category",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "Exploration_tool",
-  "annal:type": "skos:Concept",
+  "annal:type": "ldtools:Category",
   "annal:type_id": "Category",
   "rdfs:comment": "Exploration tool",
   "rdfs:label": "Exploration tool"

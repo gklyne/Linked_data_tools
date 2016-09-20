@@ -7,11 +7,12 @@
   ],
   "@id": "Category/Visualization",
   "@type": [
+    "ldtools:Category",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "Visualization",
-  "annal:type": "skos:Concept",
+  "annal:type": "ldtools:Category",
   "annal:type_id": "Category",
   "rdfs:comment": "Visualization",
   "rdfs:label": "Visualization"

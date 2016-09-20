@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Journal/00_contents",
+  "@type": [
+    "coll:Journal",
+    "annal:EntityData"
+  ],
+  "annal:id": "00_contents",
+  "annal:type": "coll:Journal",
+  "annal:type_id": "Journal",
+  "coll:date": "2016-09-20",
+  "coll:included_audio_r": [],
+  "coll:included_image_r": [],
+  "coll:location": "OeRC, Oxford",
+  "coll:resources": [],
+  "rdfs:comment": "# Linked data tools\r\n\r\nThis collection contains information about linked data tools collated by the \"Linked data lunchtime\" collective at [OeRC](http://www.oerc.ox.ac.uk), with a focus on those for which there is either local knowledge or a local desire to use.\r\n\r\nThe collection is organized into informatiuon about the following types of entity:\r\n\r\n* [Categories of tool]($COLL:l/Category/)\r\n* [Software tools]($COLL:l/Tool/)\r\n* [Contacts]($COLL:l/Contact/) - people, projects or other groups who can be consulted.\r\n* [Stacks]($COLL:l/Stack/) - assemblies of tools used to create linked data applications.\r\n\r\nYou can also browse:\r\n\r\n* [Types of entities]($COLL:l/Type_list/) defined in this collection\r\n* [Lists]($COLL:l/List_list/) defined for this collection\r\n* [Entity views]($COLL:l/View_list/) defined for this collection\r\n* [All entities with types]($COLL:l/Default_list_all/) defined for this collection\r\n",
+  "rdfs:label": "Linked data tools"
+}

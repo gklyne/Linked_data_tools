@@ -7,11 +7,12 @@
   ],
   "@id": "Category/Ontology_editor",
   "@type": [
+    "ldtools:Category",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "Ontology_editor",
-  "annal:type": "skos:Concept",
+  "annal:type": "ldtools:Category",
   "annal:type_id": "Category",
   "rdfs:comment": "Ontology editor",
   "rdfs:label": "Ontology editor"

@@ -7,11 +7,12 @@
   ],
   "@id": "Category/Reasoner",
   "@type": [
+    "ldtools:Category",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "Reasoner",
-  "annal:type": "skos:Concept",
+  "annal:type": "ldtools:Category",
   "annal:type_id": "Category",
   "rdfs:comment": "Reasoner",
   "rdfs:label": "Reasoner"
