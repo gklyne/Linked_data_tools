@@ -5,40 +5,37 @@
     },
     "../../coll_context.jsonld"
   ],
-  "@id": "Tool/Jena",
+  "@id": "Tool/Fuseki",
   "@type": [
     "ldtools:Tool",
     "prov:Entity",
     "skos:Concept",
     "annal:EntityData"
   ],
-  "annal:id": "Jena",
+  "annal:id": "Fuseki",
   "annal:type": "ldtools:Tool",
   "annal:type_id": "Tool",
   "entity:seeAlso_r": [
     {
-      "rdfs:seeAlso": "https://jena.apache.org/index.html"
+      "rdfs:seeAlso": "https://jena.apache.org/documentation/serving_data/"
     }
   ],
-  "rdfs:comment": "A Java library and supporting utilities for storing and managing RDF data.",
-  "rdfs:label": "Jena RDF toolkit",
+  "rdfs:comment": "Fuseki RDF data server",
+  "rdfs:label": "Fuseki RDF data server",
   "skos:narrower": [
     {
-      "@id": "Category/Triple_store"
-    },
-    {
-      "@id": "Category/Reasoner"
+      "@id": "Category/Publishing"
     },
     {
       "@id": "Category/Query_tool"
     },
     {
-      "@id": "Category/Library"
+      "@id": "Category/Publishing"
     }
   ],
   "skos:related": [
     {
-      "@id": "Tool/Fuseki"
+      "@id": "Tool/Jena"
     }
   ]
 }

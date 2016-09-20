@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Contact/Graham_K",
+  "@type": [
+    "ldtools:Contact",
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:id": "Graham_K",
+  "annal:type": "ldtools:Contact",
+  "annal:type_id": "Contact",
+  "ldtools:knows_tools": [
+    {
+      "ldtools:knowledge_level": "*",
+      "ldtools:knows_tool": "Tool/Jena"
+    },
+    {
+      "ldtools:knowledge_level": "**",
+      "ldtools:knows_tool": "Tool/Fuseki"
+    }
+  ],
+  "rdfs:comment": "Graham Klyne",
+  "rdfs:label": "Graham Klyne"
+}
