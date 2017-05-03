@@ -15,9 +15,9 @@
   "annal:id": "Fuseki",
   "annal:type": "ldtools:Tool",
   "annal:type_id": "Tool",
-  "entity:seeAlso_r": [
+  "rdfs:seeAlso": [
     {
-      "rdfs:seeAlso": "https://jena.apache.org/documentation/serving_data/"
+      "@id": "https://jena.apache.org/documentation/serving_data/"
     }
   ],
   "rdfs:comment": "Fuseki RDF data server",

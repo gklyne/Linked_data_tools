@@ -15,9 +15,9 @@
   "annal:id": "Jena",
   "annal:type": "ldtools:Tool",
   "annal:type_id": "Tool",
-  "entity:seeAlso_r": [
+  "rdfs:seeAlso": [
     {
-      "rdfs:seeAlso": "https://jena.apache.org/index.html"
+      "@id": "https://jena.apache.org/index.html"
     }
   ],
   "rdfs:comment": "A Java library and supporting utilities for storing and managing RDF data.",

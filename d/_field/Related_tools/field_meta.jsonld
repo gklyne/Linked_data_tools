@@ -11,21 +11,28 @@
   ],
   "annal:default_value": "",
   "annal:field_entity_type": "",
+  "annal:field_fields": [
+    {
+      "annal:field_id": "_field/Related_tool",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "@id"
+    }
+  ],
   "annal:field_placement": "small:0,12",
   "annal:field_ref_field": "",
   "annal:field_ref_restriction": "",
   "annal:field_ref_type": "",
-  "annal:field_render_type": "Enum_render_type/Group_Seq_Row",
-  "annal:field_value_mode": "Enum_value_mode/Value_direct",
+  "annal:field_render_type": "_enum_render_type/Group_Set_Row",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "ldtools:Tool",
-  "annal:group_ref": "_group/Related_tool_r",
   "annal:id": "Related_tools",
   "annal:placeholder": "(Related tools)",
   "annal:property_uri": "skos:related",
   "annal:repeat_label_add": "Add related tool",
   "annal:repeat_label_delete": "Remove related tool",
+  "annal:tooltip": "(Related tools)",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "(Related tools)",
+  "rdfs:comment": "# Related tools\r\n\r\n(Related tools)",
   "rdfs:label": "Related tools"
 }

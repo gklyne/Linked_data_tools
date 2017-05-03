@@ -5,27 +5,27 @@
     },
     "../../coll_context.jsonld"
   ],
-  "@id": "_field/Knows_tool",
+  "@id": "_field/Related_tool",
   "@type": [
     "annal:Field"
   ],
   "annal:default_value": "",
   "annal:field_entity_type": "",
-  "annal:field_placement": "small:0,12;medium:0,6",
+  "annal:field_placement": "small:0,12",
   "annal:field_ref_field": "",
   "annal:field_ref_restriction": "",
   "annal:field_ref_type": "_type/Tool",
-  "annal:field_render_type": "Enum_render_type/Enum_optional",
-  "annal:field_value_mode": "Enum_value_mode/Value_direct",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "ldtools:Tool",
-  "annal:group_ref": "",
-  "annal:id": "Knows_tool",
-  "annal:placeholder": "",
-  "annal:property_uri": "ldtools:knows_tool",
+  "annal:id": "Related_tool",
+  "annal:placeholder": "(Select related tool)",
+  "annal:property_uri": "skos:related",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:tooltip": "(Indicates a related tool)",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "(select tool)",
-  "rdfs:label": "Knows tool"
+  "rdfs:comment": "# Related tool\r\n\r\n(Indicates a related tool)",
+  "rdfs:label": "Related tool"
 }

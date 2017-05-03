@@ -11,7 +11,7 @@
   ],
   "annal:default_type": "_type/Category",
   "annal:default_view": "_view/Category",
-  "annal:display_type": "Enum_list_type/List",
+  "annal:display_type": "_enum_list_type/List",
   "annal:id": "Category",
   "annal:list_entity_selector": "'ldtools:Category' in [@type]",
   "annal:list_fields": [

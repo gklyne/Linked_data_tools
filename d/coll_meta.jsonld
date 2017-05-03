@@ -1,7 +1,7 @@
 {
   "@context": [
     {
-      "@base": "../d/"
+      "@base": "./"
     },
     "coll_context.jsonld"
   ],
@@ -16,7 +16,7 @@
   "annal:id": "Linked_data_tools",
   "annal:inherit_from": "_coll/Journal_defs",
   "annal:meta_comment": "",
-  "annal:software_version": "0.1.31",
+  "annal:software_version": "0.1.37",
   "annal:type": "annal:Collection",
   "annal:type_id": "_coll",
   "rdfs:comment": "Linked data tools informationm from OeRC LDLD group",

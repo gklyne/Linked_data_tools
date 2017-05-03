@@ -11,21 +11,33 @@
   ],
   "annal:default_value": "",
   "annal:field_entity_type": "ldtools:Contact",
+  "annal:field_fields": [
+    {
+      "annal:field_id": "_field/Knows_tool",
+      "annal:field_placement": "small:0,12;medium:0,6",
+      "annal:property_uri": "ldtools:knows_tool"
+    },
+    {
+      "annal:field_id": "_field/Knowledge_level",
+      "annal:field_placement": "small:0,12;medium:6,6",
+      "annal:property_uri": "ldtools:knowledge_level"
+    }
+  ],
   "annal:field_placement": "small:0,12",
   "annal:field_ref_field": "",
   "annal:field_ref_restriction": "",
   "annal:field_ref_type": "",
-  "annal:field_render_type": "Enum_render_type/Group_Seq_Row",
-  "annal:field_value_mode": "Enum_value_mode/Value_direct",
+  "annal:field_render_type": "_enum_render_type/Group_Seq_Row",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "ldtools:Tool",
-  "annal:group_ref": "_group/Knows_tool",
   "annal:id": "Knows_tool_r",
   "annal:placeholder": "(Repeat group knows tool)",
   "annal:property_uri": "ldtools:knows_tools",
   "annal:repeat_label_add": "Add tool",
   "annal:repeat_label_delete": "Remove tool",
+  "annal:tooltip": "(tooltip text here)",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "(tooltip text here)",
+  "rdfs:comment": "# Knows tools\r\n\r\n(tooltip text here)",
   "rdfs:label": "Knows tools"
 }

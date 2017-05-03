@@ -15,9 +15,9 @@
   "annal:id": "Virtuoso",
   "annal:type": "ldtools:Tool",
   "annal:type_id": "Tool",
-  "entity:seeAlso_r": [
+  "rdfs:seeAlso": [
     {
-      "rdfs:seeAlso": "http://virtuoso.openlinksw.com"
+      "@id": "http://virtuoso.openlinksw.com"
     }
   ],
   "rdfs:comment": "Virtuoso",

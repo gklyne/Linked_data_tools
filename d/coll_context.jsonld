@@ -1,20 +1,16 @@
 {
   "@context": {
-    "@base": "http://localhost:8000/annalist/c/Linked_data_tools/../d/",
-    "@errs": [
-      "Incompatible use of property coll:imported_image in field Imported_image_m (new {'gid': u'Imported_image_r', '@type': '@id', 'fid': u'Imported_image_m'}; was {'fid': u'Imported_image', 'vid': u'Imported_image'})",
-      "Incompatible use of property rdfs:seeAlso in field See_also (new {'gid': u'See_also_r', '@type': '@id', 'fid': u'See_also'}; was {'fid': u'Entity_see_also_r', '@type': '@id', 'vid': 'Vocab_view', '@container': '@set'})"
-    ],
+    "@base": "http://localhost:8000/annalist/c/Linked_data_tools/./",
     "annal": "http://purl.org/annalist/2014/#",
     "annal:alias_source": {
       "@type": "@id",
-      "fid": "Type_alias_source",
-      "gid": "Type_alias_group"
+      "fid": "Type_aliases",
+      "subfid": "Type_alias_source"
     },
     "annal:alias_target": {
       "@type": "@id",
-      "fid": "Type_alias_target",
-      "gid": "Type_alias_group"
+      "fid": "Type_aliases",
+      "subfid": "Type_alias_target"
     },
     "annal:default_list": {
       "fid": "Coll_default_list_id",
@@ -64,14 +60,19 @@
       "fid": "Field_entity_type",
       "vid": "Field_view"
     },
+    "annal:field_fields": {
+      "@container": "@list",
+      "fid": "Field_fields",
+      "vid": "Field_view"
+    },
     "annal:field_id": {
       "@type": "@id",
-      "fid": "Group_field_sel",
-      "gid": "Group_field_group"
+      "fid": "Group_fields",
+      "subfid": "Group_field_sel"
     },
     "annal:field_placement": {
-      "fid": "Field_placement",
-      "vid": "Field_view"
+      "fid": "Group_fields",
+      "subfid": "Group_field_placement"
     },
     "annal:field_ref_field": {
       "@type": "@id",
@@ -107,14 +108,9 @@
       "fid": "Group_fields",
       "vid": "Field_group_view"
     },
-    "annal:group_ref": {
-      "@type": "@id",
-      "fid": "Field_groupref",
-      "vid": "Field_view"
-    },
     "annal:id": {
       "fid": "Entity_id",
-      "vid": "Imported_audio"
+      "vid": "Journal_entry"
     },
     "annal:inherit_from": {
       "@type": "@id",
@@ -130,11 +126,6 @@
       "fid": "List_fields",
       "vid": "List_view"
     },
-    "annal:member": {
-      "@type": "@id",
-      "fid": "Journal_ref",
-      "gid": "Journal_ref"
-    },
     "annal:meta_comment": {
       "fid": "Coll_comment",
       "vid": "Collection_view"
@@ -149,8 +140,8 @@
     },
     "annal:property_uri": {
       "@type": "@id",
-      "fid": "Field_property",
-      "vid": "Field_view"
+      "fid": "Group_fields",
+      "subfid": "Group_field_property"
     },
     "annal:record_type": {
       "@type": "@id",
@@ -174,12 +165,16 @@
       "fid": "Type_supertype_uris",
       "vid": "Type_view"
     },
+    "annal:tooltip": {
+      "fid": "Field_tooltip",
+      "vid": "Field_view"
+    },
     "annal:type": {
       "@type": "@id"
     },
     "annal:type_id": {
       "fid": "Entity_type",
-      "vid": "Imported_audio"
+      "vid": "Journal_entry"
     },
     "annal:type_list": {
       "@type": "@id",
@@ -193,8 +188,8 @@
     },
     "annal:uri": {
       "@type": "@id",
-      "fid": "Type_uri",
-      "vid": "Type_view"
+      "fid": "Concept_uri",
+      "vid": "Concept"
     },
     "annal:user_permission": {
       "@container": "@set",
@@ -221,34 +216,23 @@
       "vid": "Imported_audio"
     },
     "coll:imported_image": {
-      "err": "Incompatible use of property coll:imported_image in field Imported_image_m (new {'gid': u'Imported_image_r', '@type': '@id', 'fid': u'Imported_image_m'}; was {'fid': u'Imported_image', 'vid': u'Imported_image'})",
       "fid": "Imported_image",
       "vid": "Imported_image"
     },
-    "coll:included_audio": {
-      "@type": "@id",
-      "fid": "Included_audio",
-      "gid": "Included_audio_m"
-    },
     "coll:included_audio_m": {
       "@type": "@id",
-      "fid": "Included_audio_m",
-      "gid": "Included_audio_r"
+      "fid": "Included_audio_r",
+      "subfid": "Included_audio_m"
     },
     "coll:included_audio_r": {
       "@container": "@list",
       "fid": "Included_audio_r",
       "vid": "Journal_entry"
     },
-    "coll:included_image": {
-      "@type": "@id",
-      "fid": "Included_image",
-      "gid": "Included_image_m"
-    },
     "coll:included_image_m": {
       "@type": "@id",
-      "fid": "Included_image_m",
-      "gid": "Included_image_r"
+      "fid": "Included_image_r",
+      "subfid": "Included_image_m"
     },
     "coll:included_image_r": {
       "@container": "@list",
@@ -259,11 +243,6 @@
       "@type": "@id",
       "fid": "Linked_audio",
       "vid": "Linked_audio"
-    },
-    "coll:linked_audio_m": {
-      "@type": "@id",
-      "fid": "Linked_audio_m",
-      "gid": "Imported_audio_r"
     },
     "coll:linked_image": {
       "@type": "@id",
@@ -288,25 +267,16 @@
       "fid": "Uploaded_audio",
       "vid": "Uploaded_audio"
     },
-    "coll:uploaded_audio_m": {
-      "@type": "@id",
-      "fid": "Uploaded_audio_m",
-      "gid": "Uploaded_audio_r"
-    },
     "coll:uploaded_image": {
       "fid": "Uploaded_image",
       "vid": "Uploaded_image"
     },
-    "coll:uploaded_image_m": {
-      "@type": "@id",
-      "fid": "Uploaded_image_m",
-      "gid": "Uploaded_image_r"
-    },
     "coll:web_resource_m": {
       "@type": "@id",
-      "fid": "Web_resource_m",
-      "gid": "Web_resource_r"
+      "fid": "Web_resource_r",
+      "subfid": "Web_resource_m"
     },
+    "dc": "http://purl.org/dc/elements/1.1/",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "import_name": "annal:import_name",
     "import_url": {
@@ -318,25 +288,42 @@
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "rdfs:comment": {
       "fid": "Entity_comment",
-      "vid": "Imported_audio"
+      "vid": "Journal_entry"
     },
     "rdfs:label": {
       "fid": "Entity_label",
-      "vid": "Imported_audio"
+      "vid": "Journal_entry"
     },
     "rdfs:seeAlso": {
       "@container": "@set",
       "@type": "@id",
-      "err": "Incompatible use of property rdfs:seeAlso in field See_also (new {'gid': u'See_also_r', '@type': '@id', 'fid': u'See_also'}; was {'fid': u'Entity_see_also_r', '@type': '@id', 'vid': 'Vocab_view', '@container': '@set'})",
       "fid": "Entity_see_also_r",
-      "vid": "Vocab_view"
+      "vid": "Concept"
     },
     "resource_name": "annal:resource_name",
     "resource_type": "annal:resource_type",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "skos:broader": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "Broader_concept_r",
+      "vid": "Concept"
+    },
+    "skos:narrower": {
+      "@container": "@list",
+      "fid": "Tool_categories",
+      "vid": "Tool"
+    },
+    "skos:related": {
+      "@container": "@set",
+      "@type": "@id",
+      "fid": "Related_concept_r",
+      "vid": "Concept"
+    },
     "upload_name": "annal:upload_name",
     "uploaded_file": "annal:uploaded_file",
     "uploaded_size": "annal:uploaded_size",
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
-  "_comment": "Generated by generate_coll_jsonld_context on 2016-09-20 15:14:11 (for user data)"
+  "_comment": "Generated by generate_coll_jsonld_context on 2017-05-03 17:25:06"
 }
