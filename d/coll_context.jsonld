@@ -145,8 +145,8 @@
     },
     "annal:record_type": {
       "@type": "@id",
-      "fid": "Group_target_type",
-      "vid": "Field_group_view"
+      "fid": "List_target_type",
+      "vid": "List_view"
     },
     "annal:repeat_label_add": {
       "fid": "Field_repeat_label_add",
@@ -252,11 +252,6 @@
     "coll:location": {
       "fid": "Journal_location",
       "vid": "Journal_entry"
-    },
-    "coll:resource": {
-      "@type": "@id",
-      "fid": "Web_resource",
-      "vid": "Web_resource"
     },
     "coll:resources": {
       "@container": "@list",

@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_user/alejandra_gonzalez_beltran",
+  "@type": [
+    "annal:User"
+  ],
+  "annal:id": "alejandra_gonzalez_beltran",
+  "annal:type": "annal:User",
+  "annal:type_id": "_user",
+  "annal:user_permission": [
+    "VIEW",
+    "CREATE",
+    "UPDATE"
+  ],
+  "annal:user_uri": "mailto:alejandra.gonzalez.beltran@gmail.com",
+  "rdfs:comment": "# Permissions for alejandra_gonzalez_beltran\r\n\r\nPermissions for user alejandra_gonzalez_beltran (copied from default)",
+  "rdfs:label": "Permissions for alejandra_gonzalez_beltran"
+}

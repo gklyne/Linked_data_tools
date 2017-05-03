@@ -1,0 +1,31 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Tool/RDFLib",
+  "@type": [
+    "ldtools:Tool",
+    "prov:Entity",
+    "skos:Concept",
+    "annal:EntityData"
+  ],
+  "annal:id": "RDFLib",
+  "annal:type": "ldtools:Tool",
+  "annal:type_id": "Tool",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://github.com/RDFLib"
+    }
+  ],
+  "rdfs:comment": "Python library for RDF data handling",
+  "rdfs:label": "Python RDF library",
+  "skos:narrower": [
+    {
+      "@id": "Category/Library"
+    }
+  ],
+  "skos:related": []
+}
